@@ -27,25 +27,6 @@ To create an accessible AI-powered medical assistant that:
 
 ---
 
-## 📁 Project Structure
-
-AI-HealthChatbot/
-├── app.py               # Main Chainlit application file
-├── ingest.py            # Script to ingest and embed medical documents
-├── model.py             # Handles LLaMA 2 integration and RAG logic
-├── data/                # Folder containing raw medical documents (PDFs, text, etc.)
-│   └── *.pdf, *.txt     # Example: Medical articles, symptom guides
-├── faiss_index/         # Serialized FAISS index files (generated after ingest)
-├── utils/               # Utility functions (embedding helpers, preprocessing, etc.)
-│   └── helpers.py
-├── requirements.txt     # Python dependencies
-├── .env                 # Environment variables (API keys, configs)
-├── .gitignore           # Files/folders ignored by Git
-└── README.md            # Project documentation (this file)
-
-
----
-
 ## 🧠 Key Components
 
 ### 1. **Document Ingestion**
@@ -69,7 +50,8 @@ AI-HealthChatbot/
 
 ### 🔹 Chainlit Web App
 
-![Chainlit UI Screenshot](chainlit_ui.PNG)
+![Chainlit UI Screenshot](chainlit_ui.jpg)
+![Chainlit UI Screenshot](chainlit_ui1.jpg)
 
 ---
 
